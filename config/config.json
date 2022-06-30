@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ondispose-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ondispose2/Ondispose2WebPart.js",
+          "manifest": "./src/webparts/ondispose2/Ondispose2WebPart.manifest.json"
+        }
+      ]
+    },
+    "ondispose-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ondispose3/Ondispose3WebPart.js",
+          "manifest": "./src/webparts/ondispose3/Ondispose3WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Ondispose2WebPartStrings": "lib/webparts/ondispose2/loc/{locale}.js",
+    "Ondispose3WebPartStrings": "lib/webparts/ondispose3/loc/{locale}.js"
+  }
+}

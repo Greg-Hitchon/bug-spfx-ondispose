@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.0",
+    "libraryName": "bug-ondispose-2",
+    "libraryId": "1732ecba-21e9-4876-a4b3-fc897bdb9b5a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "bug-ondispose-2",
+    "solutionShortDescription": "bug-ondispose-2 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

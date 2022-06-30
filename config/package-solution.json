@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bug-ondispose-2-client-side-solution",
+    "id": "1732ecba-21e9-4876-a4b3-fc897bdb9b5a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "bug-ondispose-2 description"
+      },
+      "longDescription": {
+        "default": "bug-ondispose-2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "bug-ondispose-2 Feature",
+        "description": "The feature that activates elements of the bug-ondispose-2 solution.",
+        "id": "c4a61ddb-154e-4724-81ce-154bfd1acd8e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/bug-ondispose-2.sppkg"
+  }
+}
